@@ -1,0 +1,9 @@
+# file...... market_5.csv
+# date...... Thu Jul 09 10:29:11 2015
+# user...... RG
+# host...... (null)
+# target.... auction 0
+# trigger... (none)
+# interval.. 900
+# limit..... 168
+# timestamp,current_market.clearing_price,current_market.clearing_quantity,current_market.seller_total_quantity,current_market.buyer_total_quantity

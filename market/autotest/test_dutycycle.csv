@@ -1,0 +1,9 @@
+# file...... test_dutycycle.csv
+# date...... Thu Jul 09 10:29:11 2015
+# user...... RG
+# host...... (null)
+# target.... transformer 15
+# trigger... (none)
+# interval.. 60
+# limit..... 0
+# timestamp,power_out.real
