@@ -3,7 +3,7 @@ gridlabd-trunk containing residential, market, generators folders
 
 I have implemented 5 web services and the corresponting clients. The services are located 
 on a virtual machine at http://10.96.12.47:9090/ . The clients that consume the services are running through 
-gridlab-d and are located in the following directories.
+**gridlab-d** and are located in the following directories.
 
 ####in residential folder:						
 								wheater_service.h:  service library
