@@ -240,8 +240,6 @@
   <ItemGroup>
     <ClCompile Include="appliance.cpp" />
     <ClCompile Include="clotheswasher.cpp" />
-    <ClCompile Include="controller_serviceProxy.cpp" />
-    <ClCompile Include="CO_as_service.cpp" />
     <ClCompile Include="dishwasher.cpp" />
     <ClCompile Include="dryer.cpp" />
     <ClCompile Include="evcharger.cpp" />
@@ -252,23 +250,17 @@
     <ClCompile Include="init.cpp" />
     <ClCompile Include="lights.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="microturbine_serviceProxy.cpp" />
     <ClCompile Include="microwave.cpp" />
-    <ClCompile Include="MT_as_service.cpp" />
     <ClCompile Include="occupantload.cpp" />
     <ClCompile Include="plugload.cpp" />
     <ClCompile Include="range.cpp" />
     <ClCompile Include="refrigerator.cpp" />
     <ClCompile Include="residential_enduse.cpp" />
-    <ClCompile Include="solarGen_serviceProxy.cpp" />
     <ClCompile Include="solvers.cpp" />
-    <ClCompile Include="S_as_service.cpp" />
     <ClCompile Include="thermal_storage.cpp" />
     <ClCompile Include="waterheater.cpp" />
     <ClCompile Include="wheater_serviceProxy.cpp" />
     <ClCompile Include="WH_as_service.cpp" />
-    <ClCompile Include="windturbine_serviceProxy.cpp" />
-    <ClCompile Include="WT_as_service.cpp" />
     <ClCompile Include="zipload.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -277,9 +269,6 @@
     <ClInclude Include="clotheswasher.h" />
     <ClInclude Include="complex.h" />
     <ClInclude Include="config_external.h" />
-    <ClInclude Include="controller_service.h" />
-    <ClInclude Include="controller_serviceProxy.h" />
-    <ClInclude Include="CO_as_service.h" />
     <ClInclude Include="dishwasher.h" />
     <ClInclude Include="dryer.h" />
     <ClInclude Include="evcharger.h" />
@@ -288,28 +277,19 @@
     <ClInclude Include="house_a.h" />
     <ClInclude Include="house_e.h" />
     <ClInclude Include="lights.h" />
-    <ClInclude Include="microturbine_service.h" />
-    <ClInclude Include="microturbine_serviceProxy.h" />
     <ClInclude Include="microwave.h" />
-    <ClInclude Include="MT_as_service.h" />
     <ClInclude Include="occupantload.h" />
     <ClInclude Include="plugload.h" />
     <ClInclude Include="range.h" />
     <ClInclude Include="refrigerator.h" />
     <ClInclude Include="residential.h" />
     <ClInclude Include="residential_enduse.h" />
-    <ClInclude Include="solarGen_service.h" />
-    <ClInclude Include="solarGen_serviceProxy.h" />
     <ClInclude Include="solvers.h" />
-    <ClInclude Include="S_as_service.h" />
     <ClInclude Include="thermal_storage.h" />
     <ClInclude Include="waterheater.h" />
     <ClInclude Include="wheater_service.h" />
     <ClInclude Include="wheater_serviceProxy.h" />
     <ClInclude Include="WH_as_service.h" />
-    <ClInclude Include="windturbine_service.h" />
-    <ClInclude Include="windturbine_serviceProxy.h" />
-    <ClInclude Include="WT_as_service.h" />
     <ClInclude Include="zipload.h" />
   </ItemGroup>
   <ItemGroup>

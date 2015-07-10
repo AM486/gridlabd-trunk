@@ -1,20 +1,16 @@
-﻿Build started 26/6/2015 18:24:16.
+﻿Build started 10/7/2015 11:43:44.
      1>Project "D:\Program Files\GridLAB-D\code\trunk versions\gridlab-d-code-5154-trunk\residential\residential.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Win32\Debug\residential\residential.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\ws\staff\include /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CTR_DEPRECATE_NO_WARNING /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\residential\\" /Fd"Win32\Debug\residential\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WH_as_service.cpp
-         WH_as_service.cpp
-     1>d:\program files\gridlab-d\code\trunk versions\gridlab-d-code-5154-trunk\residential\wh_as_service.cpp(69): warning C4244: 'argument' : conversion from 'TIMESTAMP' to 'int', possible loss of data
-     1>d:\program files\gridlab-d\code\trunk versions\gridlab-d-code-5154-trunk\residential\wh_as_service.cpp(69): warning C4244: 'argument' : conversion from 'TIMESTAMP' to 'int', possible loss of data
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\ws\staff\include /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CTR_DEPRECATE_NO_WARNING /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\residential\\" /Fd"Win32\Debug\residential\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt init.cpp
+         init.cpp
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
          d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\Win32\Debug\residential.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\ws\staff\lib /LIBPATH:..\VS2005\Win32\Debug\ staff_common.lib staff_client.lib staff_utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\residential\residential.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program Files\GridLAB-D\code\trunk versions\gridlab-d-code-5154-trunk\VS2005\Win32\Debug\residential.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\residential.lib" /MACHINE:X86 /DLL Win32\Debug\residential\residential.dll.embed.manifest.res
          Win32\Debug\residential\appliance.obj
          Win32\Debug\residential\clotheswasher.obj
-         Win32\Debug\residential\controller_serviceProxy.obj
-         Win32\Debug\residential\CO_as_service.obj
          Win32\Debug\residential\dishwasher.obj
          Win32\Debug\residential\dryer.obj
          Win32\Debug\residential\evcharger.obj
@@ -25,23 +21,17 @@
          Win32\Debug\residential\init.obj
          Win32\Debug\residential\lights.obj
          Win32\Debug\residential\main.obj
-         Win32\Debug\residential\microturbine_serviceProxy.obj
          Win32\Debug\residential\microwave.obj
-         Win32\Debug\residential\MT_as_service.obj
          Win32\Debug\residential\occupantload.obj
          Win32\Debug\residential\plugload.obj
          Win32\Debug\residential\range.obj
          Win32\Debug\residential\refrigerator.obj
          Win32\Debug\residential\residential_enduse.obj
-         Win32\Debug\residential\solarGen_serviceProxy.obj
          Win32\Debug\residential\solvers.obj
-         Win32\Debug\residential\S_as_service.obj
          Win32\Debug\residential\thermal_storage.obj
          Win32\Debug\residential\waterheater.obj
          Win32\Debug\residential\wheater_serviceProxy.obj
          Win32\Debug\residential\WH_as_service.obj
-         Win32\Debug\residential\windturbine_serviceProxy.obj
-         Win32\Debug\residential\WT_as_service.obj
          Win32\Debug\residential\zipload.obj
             Creating library ..\VS2005\Win32\Debug\residential.lib and object ..\VS2005\Win32\Debug\residential.exp
        Manifest:
@@ -57,4 +47,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.92
+Time Elapsed 00:01:13.80

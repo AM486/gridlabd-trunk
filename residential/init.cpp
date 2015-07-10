@@ -30,10 +30,6 @@
 #include "thermal_storage.h"
 #include "evcharger_det.h"
 #include "WH_as_service.h"
-#include "S_as_service.h"
-#include "WT_as_service.h"
-#include "MT_as_service.h"
-#include "CO_as_service.h"
 
 #include "residential_enduse.h"
 #include "house_e.h"
@@ -85,10 +81,7 @@ EXPORT CLASS *init(CALLBACKS *fntable, MODULE *module, int argc, char *argv[])
 	new thermal_storage(module);
 	new evcharger_det(module);
 	new WH_as_service(module);
-	new S_as_service(module);
-	new WT_as_service(module);
-	new MT_as_service(module);
-	new CO_as_service(module);
+
 
 	/* always return the first class registered */
 	return residential_enduse::oclass;

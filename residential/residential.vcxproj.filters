@@ -84,34 +84,10 @@
     <ClCompile Include="zipload.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CO_as_service.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="controller_serviceProxy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="microturbine_serviceProxy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MT_as_service.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="S_as_service.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="solarGen_serviceProxy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="WH_as_service.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="wheater_serviceProxy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="windturbine_serviceProxy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WT_as_service.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -182,37 +158,10 @@
     <ClInclude Include="build.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CO_as_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="complex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="config_external.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="controller_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="controller_serviceProxy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="microturbine_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="microturbine_serviceProxy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MT_as_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="S_as_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="solarGen_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="solarGen_serviceProxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WH_as_service.h">
@@ -222,15 +171,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="wheater_serviceProxy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="windturbine_service.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="windturbine_serviceProxy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WT_as_service.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
