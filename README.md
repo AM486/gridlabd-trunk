@@ -18,7 +18,7 @@ gridlab-d and are located in the following directories.
 								controllerserviceProxy.h:  service proxy library
 								controller_service.cpp:  client
 								controller_service.h:  client library
-								
+
 ####in generators folder:						
 								microturbine_service.h:  service library
 								microturbine_serviceProxy.cpp:  service proxy
