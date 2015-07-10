@@ -17,9 +17,7 @@ in market folder:
 								controllerserviceProxy.cpp:  service proxy
 								controllerserviceProxy.h:  service proxy library
 								controller_service.cpp:  client
-								controller_service.h:  client library							
-								
-in generators folder:
+								controller_service.h:  client library				in generators folder:
 								microturbine_service.h:  service library
 								microturbine_serviceProxy.cpp:  service proxy
 								microturbine_serviceProxy.h:  service proxy library
